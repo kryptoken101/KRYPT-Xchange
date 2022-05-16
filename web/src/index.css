@@ -10428,14 +10428,13 @@ foreignObject {
       .app_footer-container .footer-row-content .footer_separter .footer-logo {
         background-size: contain;
         background-repeat: no-repeat;
+        height: 6rem !important;
         margin-left: 1.5rem;
         width: 7rem; }
       .app_footer-container .footer-row-content .footer_separter svg .hollaEX_logo_gray {
         fill: var(--calculated_base_footer_text); }
       .app_footer-container .footer-row-content .footer_separter .blue-link {
         color: #00aeef !important; }
-      .app_footer-container .footer-row-content .footer_separter .footer-content .footer-img-wrapper {
-        height: 4rem; }
     .app_footer-container .footer-row-content .footer-public-texts .footer-public-texts-text {
       line-height: 2rem;
       font-weight: bold; }

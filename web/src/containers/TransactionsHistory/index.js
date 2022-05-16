@@ -186,8 +186,9 @@ class TransactionsHistory extends Component {
 			});
 		}
 		const [startDate, endDate] = range;
+		const endDateVal = moment(endDate).add(1, 'days');
 		const start_date = startDate ? moment.utc(startDate).format() : undefined;
-		const end_date = endDate ? moment.utc(endDate).format() : undefined;
+		const end_date = endDate ? moment.utc(endDateVal).format() : undefined;
 		this.setState(
 			(prevState) => ({
 				params: {

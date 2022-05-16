@@ -57,7 +57,7 @@ const Filters = ({ pairs, onSearch, formName, activeTab }) => {
 	};
 
 	const handleDateRange = (e) => {
-		if (e.length > 1 && e[0] && e[1]) {
+		if (e && e.length > 1 && e[0] && e[1]) {
 			setClick(e);
 		}
 	};
